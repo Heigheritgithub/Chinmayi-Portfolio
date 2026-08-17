@@ -5,6 +5,10 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+<<<<<<< HEAD
+=======
+    base: '/Chinmayi-Portfolio/',
+>>>>>>> 8c699ee6aadefdadc3399e8f69d45e665fb72b5b
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {

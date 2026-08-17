@@ -113,6 +113,7 @@ export const Projects: React.FC<ProjectsProps> = ({ projects, theme, onSelectPro
                     )}
 
                     {/* Quick View Button overlay on hover */}
+<<<<<<< HEAD
                     <div className="absolute inset-0 bg-slate-950/70 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-2.5 backdrop-blur-xs p-4">
                       <button
                         onClick={() => onSelectProject(project, 'overview')}
@@ -128,6 +129,15 @@ export const Projects: React.FC<ProjectsProps> = ({ projects, theme, onSelectPro
                       >
                         <ExternalLink className="w-4 h-4" /> Live Demo
                       </a>
+=======
+                    <div className="absolute inset-0 bg-slate-950/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-3 backdrop-blur-xs">
+                      <button
+                        onClick={() => onSelectProject(project, 'overview')}
+                        className="px-4 py-2 rounded-xl text-xs font-bold bg-cyan-500 text-slate-950 flex items-center gap-1.5 shadow-lg hover:bg-cyan-400 transition-colors cursor-pointer"
+                      >
+                        <Eye className="w-4 h-4" /> Quick Details
+                      </button>
+>>>>>>> 8c699ee6aadefdadc3399e8f69d45e665fb72b5b
                     </div>
                   </div>
 
@@ -195,6 +205,7 @@ export const Projects: React.FC<ProjectsProps> = ({ projects, theme, onSelectPro
                     >
                       <Github className="w-4 h-4" />
                     </a>
+<<<<<<< HEAD
                     <a
                       href={project.liveDemoUrl || project.githubUrl}
                       target="_blank"
@@ -205,6 +216,8 @@ export const Projects: React.FC<ProjectsProps> = ({ projects, theme, onSelectPro
                       <Play className="w-3 h-3 fill-current" />
                       <span>Live Demo</span>
                     </a>
+=======
+>>>>>>> 8c699ee6aadefdadc3399e8f69d45e665fb72b5b
                     <button
                       onClick={() => onSelectProject(project, 'simulator')}
                       className={`p-2 rounded-lg transition-colors cursor-pointer ${
@@ -212,7 +225,11 @@ export const Projects: React.FC<ProjectsProps> = ({ projects, theme, onSelectPro
                           ? 'text-cyan-400 hover:text-cyan-300 hover:bg-slate-800'
                           : 'text-cyan-600 hover:text-cyan-800 hover:bg-slate-200'
                       }`}
+<<<<<<< HEAD
                       title="Open In-App Live Simulator"
+=======
+                      title="Live Preview & Simulator"
+>>>>>>> 8c699ee6aadefdadc3399e8f69d45e665fb72b5b
                     >
                       <ExternalLink className="w-4 h-4" />
                     </button>

@@ -210,7 +210,11 @@ export const initialProjects: Project[] = [
       "Fast, responsive, and cross-device compatible web application"
     ],
     githubUrl: "https://github.com/Heigheritgithub/Collaborative-code-editor",
+<<<<<<< HEAD
     liveDemoUrl: "https://collaborative-code-editor-wheat.vercel.app/",
+=======
+    liveDemoUrl: "https://github.com/Heigheritgithub/Collaborative-code-editor",
+>>>>>>> 8c699ee6aadefdadc3399e8f69d45e665fb72b5b
     featured: true,
     architectureNotes: "A real-time collaborative web application where the React frontend communicates with a Node.js/Express backend using Socket.IO for live code synchronization, with MongoDB handling user authentication and session management.",
     codeSnippet: `// Express.js API - Create Collaboration Room

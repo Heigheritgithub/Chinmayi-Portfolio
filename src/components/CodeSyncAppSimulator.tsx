@@ -246,6 +246,7 @@ console.log("Session details:", result);`);
                 Join
               </button>
 
+<<<<<<< HEAD
               <div className="text-center pt-2 space-y-2">
                 <div>
                   <button
@@ -268,6 +269,16 @@ console.log("Session details:", result);`);
                     <span>Launch Live Vercel App ↗</span>
                   </a>
                 </div>
+=======
+              <div className="text-center pt-2">
+                <button
+                  type="button"
+                  onClick={handleGenerateRoomId}
+                  className="text-xs font-semibold text-slate-300 hover:text-[#10b981] underline underline-offset-4 transition-colors cursor-pointer"
+                >
+                  Generate Unique Room Id
+                </button>
+>>>>>>> 8c699ee6aadefdadc3399e8f69d45e665fb72b5b
               </div>
             </form>
           </div>
